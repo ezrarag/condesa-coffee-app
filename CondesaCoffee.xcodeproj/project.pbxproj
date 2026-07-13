@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		238771DF3B8746932DDE2FE3 /* CondesaCoffeeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08530CB835B22FC704A74133 /* CondesaCoffeeApp.swift */; };
+		382BB50D18AC6AB01094CA56 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = BDA601163A7C0701518C9DEC /* FirebaseFirestore */; };
+		3A3A9693245B63E54C6FC7C4 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BEC5E175BDF31584B4270FE /* Theme.swift */; };
+		43B8A3EB798DA7B0F1D7A22D /* OrderSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB85826A733F90D0D8351814 /* OrderSummaryView.swift */; };
+		51A4D84898A955B1A7E353B8 /* StaffViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD7738FBA4E06808800DF12 /* StaffViews.swift */; };
+		5B19F9BEF9265306B301AA56 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7668B576A5EB5B9A215D9C9B /* CheckoutView.swift */; };
+		7C4EFD6676D8AD7E9CEA9F01 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDE7BB3791FB0D9C9CC5931 /* Models.swift */; };
+		84EE6292C84B54A36007A67D /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB165E0CACFAA53F3388153 /* MenuView.swift */; };
+		91801AD95F11702A7FB374F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D60A46C7EE904FC229334E5 /* Assets.xcassets */; };
+		930DA11BF266033690561E1E /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CF360BE2442CF5FE444C00 /* RootView.swift */; };
+		AEDE700C719ABDC7247BA354 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = F4BE1E52E346B91AE6B6569B /* FirebaseCore */; };
+		B19C9CDA8CD927788CFA9113 /* CoffeeRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45948DF3FB40C6BC600D2B25 /* CoffeeRepository.swift */; };
+		C62FE3EF31BE29178E83174B /* ItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC6AF6454304DE035710A25 /* ItemDetailView.swift */; };
+		EBB2B929F6C5315D7ED21827 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B5DFDDBB9BF7B40C7B379C /* AppState.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		08530CB835B22FC704A74133 /* CondesaCoffeeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CondesaCoffeeApp.swift; sourceTree = "<group>"; };
+		0D60A46C7EE904FC229334E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		180CC66D77F157119B0A9B96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2BEC5E175BDF31584B4270FE /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		42B5DFDDBB9BF7B40C7B379C /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		45948DF3FB40C6BC600D2B25 /* CoffeeRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeRepository.swift; sourceTree = "<group>"; };
+		4EDE7BB3791FB0D9C9CC5931 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		7668B576A5EB5B9A215D9C9B /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
+		91CF360BE2442CF5FE444C00 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		9DDBF64C0D0254ECA043380B /* CondesaCoffee.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = CondesaCoffee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EC6AF6454304DE035710A25 /* ItemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailView.swift; sourceTree = "<group>"; };
+		BA123EA4FED119655AAC5D46 /* CondesaCoffee.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CondesaCoffee.entitlements; sourceTree = "<group>"; };
+		CBB165E0CACFAA53F3388153 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		DDD7738FBA4E06808800DF12 /* StaffViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaffViews.swift; sourceTree = "<group>"; };
+		EB85826A733F90D0D8351814 /* OrderSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderSummaryView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16F63573286EB06DA0F5B849 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEDE700C719ABDC7247BA354 /* FirebaseCore in Frameworks */,
+				382BB50D18AC6AB01094CA56 /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27602829F417264E0C1BDD92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DDBF64C0D0254ECA043380B /* CondesaCoffee.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		395E051B7043BADEC0D3E9C3 /* CondesaCoffee */ = {
+			isa = PBXGroup;
+			children = (
+				42B5DFDDBB9BF7B40C7B379C /* AppState.swift */,
+				0D60A46C7EE904FC229334E5 /* Assets.xcassets */,
+				7668B576A5EB5B9A215D9C9B /* CheckoutView.swift */,
+				45948DF3FB40C6BC600D2B25 /* CoffeeRepository.swift */,
+				BA123EA4FED119655AAC5D46 /* CondesaCoffee.entitlements */,
+				08530CB835B22FC704A74133 /* CondesaCoffeeApp.swift */,
+				180CC66D77F157119B0A9B96 /* Info.plist */,
+				9EC6AF6454304DE035710A25 /* ItemDetailView.swift */,
+				CBB165E0CACFAA53F3388153 /* MenuView.swift */,
+				4EDE7BB3791FB0D9C9CC5931 /* Models.swift */,
+				EB85826A733F90D0D8351814 /* OrderSummaryView.swift */,
+				91CF360BE2442CF5FE444C00 /* RootView.swift */,
+				DDD7738FBA4E06808800DF12 /* StaffViews.swift */,
+				2BEC5E175BDF31584B4270FE /* Theme.swift */,
+			);
+			path = CondesaCoffee;
+			sourceTree = "<group>";
+		};
+		7F49FC22CA0EFDAD41F9300F = {
+			isa = PBXGroup;
+			children = (
+				395E051B7043BADEC0D3E9C3 /* CondesaCoffee */,
+				27602829F417264E0C1BDD92 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6CE7A876FD7BA7E26A05300 /* CondesaCoffee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E3197490933AB1B29966BA9 /* Build configuration list for PBXNativeTarget "CondesaCoffee" */;
+			buildPhases = (
+				06A30E13331E1EBED2B8949F /* Sources */,
+				81AE0A3D5E9DBD565D4A6A03 /* Resources */,
+				16F63573286EB06DA0F5B849 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CondesaCoffee;
+			packageProductDependencies = (
+				F4BE1E52E346B91AE6B6569B /* FirebaseCore */,
+				BDA601163A7C0701518C9DEC /* FirebaseFirestore */,
+			);
+			productName = CondesaCoffee;
+			productReference = 9DDBF64C0D0254ECA043380B /* CondesaCoffee.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20896DDA2AA449B44EA4B1C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = B92C68C2A6E8DE00E31B844F /* Build configuration list for PBXProject "CondesaCoffee" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 7F49FC22CA0EFDAD41F9300F;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				941FF70BD3042837FD431172 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 27602829F417264E0C1BDD92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6CE7A876FD7BA7E26A05300 /* CondesaCoffee */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81AE0A3D5E9DBD565D4A6A03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91801AD95F11702A7FB374F5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06A30E13331E1EBED2B8949F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBB2B929F6C5315D7ED21827 /* AppState.swift in Sources */,
+				5B19F9BEF9265306B301AA56 /* CheckoutView.swift in Sources */,
+				B19C9CDA8CD927788CFA9113 /* CoffeeRepository.swift in Sources */,
+				238771DF3B8746932DDE2FE3 /* CondesaCoffeeApp.swift in Sources */,
+				C62FE3EF31BE29178E83174B /* ItemDetailView.swift in Sources */,
+				84EE6292C84B54A36007A67D /* MenuView.swift in Sources */,
+				7C4EFD6676D8AD7E9CEA9F01 /* Models.swift in Sources */,
+				43B8A3EB798DA7B0F1D7A22D /* OrderSummaryView.swift in Sources */,
+				930DA11BF266033690561E1E /* RootView.swift in Sources */,
+				51A4D84898A955B1A7E353B8 /* StaffViews.swift in Sources */,
+				3A3A9693245B63E54C6FC7C4 /* Theme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		13953A5883A28BAF60345513 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CondesaCoffee/CondesaCoffee.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = CondesaCoffee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ragnexus.condesacoffee;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4DD6EFF5169B4464142C96FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CondesaCoffee/CondesaCoffee.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = CondesaCoffee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ragnexus.condesacoffee;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		94D1818AB867971260ABC847 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		CFC095948C1DBC9F1D813190 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E3197490933AB1B29966BA9 /* Build configuration list for PBXNativeTarget "CondesaCoffee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13953A5883A28BAF60345513 /* Debug */,
+				4DD6EFF5169B4464142C96FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B92C68C2A6E8DE00E31B844F /* Build configuration list for PBXProject "CondesaCoffee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFC095948C1DBC9F1D813190 /* Debug */,
+				94D1818AB867971260ABC847 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		941FF70BD3042837FD431172 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BDA601163A7C0701518C9DEC /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 941FF70BD3042837FD431172 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		F4BE1E52E346B91AE6B6569B /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 941FF70BD3042837FD431172 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 20896DDA2AA449B44EA4B1C4 /* Project object */;
+}
